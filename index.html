@@ -75,6 +75,14 @@
     <!--End of Trainer-->
     <i class="fas fa-home"></i>
     <script src="app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+  const ui = new UI();
+  const products = new Products()
+  products.getProducts().then(products => ui.displayProducts(products))
+})
+
+    </script>
     
 </body>
 </html>
