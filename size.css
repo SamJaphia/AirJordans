@@ -76,7 +76,7 @@
   width: 20rem;
   padding: .5rem;
   border: 2px solid grey;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   margin-bottom: auto;
@@ -90,10 +90,17 @@
   
 }
 
+.product {
+  display: flex;
+  flex-direction: row;
+}
+
 .airImage {
-   margin-left: auto;
-   margin-right: 100%;
-   position: relative;
+   /* margin-left: auto; */
+   margin-left: 0;
+   width: 20rem;
+   height: 20rem;
+   /* margin-right: 100%; */
    display: inline-block;
 }
 
@@ -105,7 +112,7 @@
 .first {
     background: orange;
     grid-area: first;
-    text-align: right;
+    /* text-align: right; */
     position: relative;
 }
 
