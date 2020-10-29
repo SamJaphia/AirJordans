@@ -60,14 +60,40 @@
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-rows: 0.5fr 0.5fr 2.5fr 2.5fr ;
     grid-template-areas:
-    "Name Name Name Name Name"
-    "first first first first first"
+    "Name Name Name Name "
+    "first first first first"
+    "second third fun price"
+    "fourth fifth fun cart"
     
+}
     
-    
-    
+#size-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  width: 20rem;
+  padding: .5rem;
+  border: 2px solid grey;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: auto%;
+}
+
+#size-box button {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  margin: 1%;
+  
+}
+
+.airImage {
+   margin-left: auto;
+   margin-right: 100%;
+   position: relative;
 }
 
 #Name{
@@ -75,9 +101,15 @@
     grid-area: Name;
 }
 
-#first {
+.first {
     background: orange;
     grid-area: first;
+    text-align: right;
+    position: relative;
+}
+
+h2 {
+  padding-right: 5%;
 }
 
 #second {
