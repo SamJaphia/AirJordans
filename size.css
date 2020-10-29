@@ -1,162 +1,189 @@
 .navbar {
-    position: sticky;
-    top: 0;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background: rgb(231, 226, 221);
-    z-index: 1;
-  }
-  .navbar-center {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1.5rem;
-  }
-  .nav-icon {
-    font-size: 1.5rem;
-  }
-  .cart-btn {
-    position: relative;
-    cursor: pointer;
-  }
-  .cart-items {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    background: var(--primaryColor);
-    padding: 0 5px;
-    border-radius: 30%;
-    color: var(--mainWhite);}
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgb(231, 226, 221);
+  z-index: 1;
+}
+.navbar-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+.nav-icon {
+  font-size: 1.5rem;
+}
+.cart-btn {
+  position: relative;
+  cursor: pointer;
+}
+.cart-items {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: var(--primaryColor);
+  padding: 0 5px;
+  border-radius: 30%;
+  color: var(--mainWhite);}
 
-    .Air-Jordan {
-        width: 7%;
-      }
+  .Air-Jordan {
+      width: 7%;
+    }
 
-      :root {
-        --primaryColor: #f09d51;
-        --mainWhite: #fff;
-        --mainBlack: #222;
-        --mainGrey: #ececec;
-        --mainSpacing: 0.1rem;
-        --mainTransition: all 0.3s linear;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        color: var(--mainBlack);
-        background: var(--mainWhite);
-        font-family: "Lato", sans-serif;
-      }
+    :root {
+      --primaryColor: #f09d51;
+      --mainWhite: #fff;
+      --mainBlack: #222;
+      --mainGrey: #ececec;
+      --mainSpacing: 0.1rem;
+      --mainTransition: all 0.3s linear;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      color: var(--mainBlack);
+      background: var(--mainWhite);
+      font-family: "Lato", sans-serif;
+    }
 
 .container{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.5fr 0.5fr 2.5fr 2.5fr ;
-    grid-template-areas:
-    "Name Name Name Name "
-    "first first first first"
-    "second third fun price"
-    "fourth fifth fun cart"
-    
-}
-    
-#size-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: .5rem;
-  width: 20rem;
-  padding: .5rem;
-  border: 2px solid grey;
-  margin-left: auto;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: auto;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.5fr 0.5fr 2.5fr 2.5fr ;
+  grid-template-areas:
+  "Name Name Name Name "
+  "first first first first"
+  "second third fun price"
+  "fourth fifth fun cart"
+  
+}
+  
+#size-box {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: .5rem;
+width: 20rem;
+padding: .5rem;
+border: 2px solid grey;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+margin-bottom: auto;
 }
 
 #size-box button {
-  width: 100%;
-  height: 3rem;
-  text-align: center;
-  margin: 1%;
-  
+width: 100%;
+height: 3rem;
+text-align: center;
+margin: 1%;
+
 }
 
-.airDelta1 {
-   margin-left: auto;
-   margin-right: 100%;
-   position: relative;
-   display: inline-block;
+.product {
+display: flex;
+flex-direction: row;
 }
-.airDelta2 {
-   margin-left: auto;
-   margin-right: 100%;
-   position: relative;
-   display: inline-block;
+
+.airImage {
+ /* margin-left: auto; */
+ margin-left: 0;
+ width: 20rem;
+ height: 20rem;
+ /* margin-right: 100%; */
+ display: inline-block;
 }
-.airDelta3 {
-   margin-left: auto;
-   margin-right: 100%;
-   position: relative;
-   display: inline-block;
+
+.airDelta2{
+  /* margin-left: auto; */
+ margin-left: 0;
+ width: 20rem;
+ height: 20rem;
+ /* margin-right: 100%; */
+ display: inline-block;
+}
+.airDelta3{
+  /* margin-left: auto; */
+ margin-left: 0;
+ width: 20rem;
+ height: 20rem;
+ /* margin-right: 100%; */
+ display: inline-block;
+}
+.airDelta4{
+  /* margin-left: auto; */
+ margin-left: 0;
+ width: 20rem;
+ height: 20rem;
+ /* margin-right: 100%; */
+ display: inline-block;
+}
+.airDelta5{
+  /* margin-left: auto; */
+ margin-left: 0;
+ width: 20rem;
+ height: 20rem;
+ /* margin-right: 100%; */
+ display: inline-block;
 }
 
 #Name{
-    background: #f09d51;
-    grid-area: Name;
+  background: #f09d51;
+  grid-area: Name;
 }
 
 .first {
-    background: orange;
-    grid-area: first;
-    text-align: right;
-    position: relative;
+  background: orange;
+  grid-area: first;
+  /* text-align: right; */
+  position: relative;
 }
 
 h2 {
-  padding-right: 5%;
+padding-right: 5%;
 }
 
 #second {
-    background: orchid;
-    grid-area: second;
+  background: orchid;
+  grid-area: second;
 }
 
 #third {
-    background: peru;
-    grid-area: third;
+  background: peru;
+  grid-area: third;
 }
 
 #fourth {
-    background: purple;
-    grid-area: fourth;
+  background: purple;
+  grid-area: fourth;
 }
 
 #fifth {
-    background:lightblue;
-    grid-area: fifth;
+  background:lightblue;
+  grid-area: fifth;
 }
 
 #cart {
-    background: lightcoral;
-    grid-area: cart;
+  background: lightcoral;
+  grid-area: cart;
 }
 
 #price {
-    background: lightgreen;
-    grid-area: price;
+  background: lightgreen;
+  grid-area: price;
 }
 
 #fun {
-  background: lightslategrey;
-  grid-area: fun;
+background: lightslategrey;
+grid-area: fun;
 }
-
