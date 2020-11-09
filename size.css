@@ -154,6 +154,7 @@ padding-right: 5%;
 }
 
 #second {
+<<<<<<< Updated upstream
   background: orchid;
   grid-area: second;
 }
@@ -161,6 +162,25 @@ padding-right: 5%;
 #third {
   background: peru;
   grid-area: third;
+=======
+    background: orchid;
+    grid-area: second;
+    width: 10px;
+    height: 10px;
+    
+}
+
+.airDelta2 {
+  height: 1650%;
+}
+
+#third {
+    background: peru;
+    grid-area: third;
+    padding-left: 60%;
+    width: 10px;
+    height: 10px;
+>>>>>>> Stashed changes
 }
 
 #fourth {
@@ -169,8 +189,14 @@ padding-right: 5%;
 }
 
 #fifth {
+<<<<<<< Updated upstream
   background:lightblue;
   grid-area: fifth;
+=======
+    background:lightblue;
+    grid-area: fifth;
+    width: 10px;
+>>>>>>> Stashed changes
 }
 
 #cart {
