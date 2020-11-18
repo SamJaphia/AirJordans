@@ -94,74 +94,70 @@ body {
 }
 
 #wrapper {
-  position: absolute;
-  padding-top: 25%;
-  left: 5%;
-}
-
-.product {
-  display: flex;
-  flex-direction: row;
+  position: relative;
+  display: block;
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
 }
 
 .airImage {
-  /* margin-left: auto; */
-  margin-left: 0;
-  width: 20rem;
-  height: 20rem;
-  /* margin-right: 100%; */
   display: block;
-  position: absolute;
-  margin-top: 80px;
+  position: relative;
+  margin-left: 0;
+  width: 27rem;
+  height: 27rem;
+  /* margin-left: auto; */
+  /* margin-right: 100%; */
 }
 
-#container {
+.gallery {
+  display: flex;
   flex-direction: column;
-  padding-left: 50%;
+  margin-left: 2rem;
 }
 
-.airDelta2 {
-  /* margin-left: auto; */
-  margin-left: 0px;
-  width: 20rem;
-  height: 20rem;
-  /* margin-right: 100%; */
-  display: block;
+.gallery img {
+  max-width: 7rem;
+  height: 7rem;
+  border: 1px solid black;
 }
 
-.airDelta3 {
-  /* margin-left: auto; */
-  width: 20rem;
-  height: 20rem;
-  /* margin-right: 100%; */
-  display: block;
+.product {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 5rem;
+  left: 10rem;
 }
 
-.airDelta4 {
-  /* margin-left: auto; */
-  margin-left: 0;
-  width: 20rem;
-  height: 20rem;
-  /* margin-right: 100%; */
-  display: block;
+.product * {
+  position: relative;
 }
 
-.airDelta5 {
-  /* margin-left: auto; */
+#price-info {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  border: 1px solid gray;
   width: 20rem;
-  height: 20rem;
-  /* margin-right: 100%; */
-  display: block;
-  padding-left: 10px;
+  height: auto;
+  padding: 1rem;
 }
 
-.airDelta6 {
-  /* margin-left: auto; */
-  width: 20rem;
-  height: 20rem;
-  /* margin-right: 100%; */
-  display: block;
-  padding-left: 10px;
+#price-info .product-price {
+  color: blue;
+}
+
+#price-info .cart-button {
+  display: inline-block;
+  min-width: 75%;
+  color: white;
+  background-color: orangered;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 #Name {
@@ -178,19 +174,4 @@ body {
 
 h2 {
   padding-right: 5%;
-}
-
-#cart {
-  background: lightcoral;
-  grid-area: cart;
-}
-
-#price {
-  background: lightgreen;
-  grid-area: price;
-}
-
-#fun {
-  background: lightslategrey;
-  grid-area: fun;
 }
