@@ -13,11 +13,16 @@ const productsDOM = document.querySelector('.products-center')
 //cart
 let cart =[];
 
+fetch('airjordan.json')
+.then(response => response.json())
+.then(data => console.log(data))
+
 // get the kicks
 class Products {
   async getProducts () {
     try {
       let result = await fetch('airjordan.json')
+      console.log(result)
       let data = await result.json()
 
       let products = data.items;
@@ -63,6 +68,10 @@ class UI{
 //Local Storage
 class Storage {
 }
+
+const ui = new UI();
+const products = new Products()
+products.getProducts().then(prod => ui.displayProducts(prod))
 
 
 
