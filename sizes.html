@@ -67,6 +67,13 @@
     </div>
 
     <script src=""></script>
+    <script>
+            document.addEventListener('DOMContentLoaded', () => {
+  const ui = new UI();
+  const jordans = new Jordans()
+  jordans.getJordans().then(jordans => ui.displayJordans(jordans))
+})
+    </script>
 </body>
 
 </html>

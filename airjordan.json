@@ -3,17 +3,27 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "Air Jordan Zoom",
+        "title": "Air Jodan XXXV",
         "price": 10.99,
-        "image": { "fields": { "file": { "url": "./Images/jordan zoom.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Images/air-jordan-xxxv.jpg" } } },
+        "imgOne": { "url": "./Images/air-jordan-xxxv1.jpg"},
+        "imgTwo": { "url": "./Images/air-jordan-xxxv2.jpg"},
+        "imgThree": { "url": "./Images/air-jordan-xxxv3.jpg"},
+        "imgFour": { "url": "./Images/air-jordan-xxxv4.jpg"},
+        "imgFive": { "url": "./Images/air-jordan-xxxv5.jpg"}
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "Air Jordan Aura",
+        "title": "Air Jordan Gravity",
         "price": 12.99,
-        "image": { "fields": { "file": { "url": "./Images/jordan aura.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Images/air-jordan-gravity.jpg" } } },
+        "imgOne": { "url": "./Images/air-jordan-gravity1.jpg"},
+        "imgTwo": { "url": "./Images/air-jordan-gravity2.jpg"},
+        "imgThree": { "url": "./Images/air-jordan-gravity3.jpg"},
+        "imgFour": { "url": "./Images/air-jordan-gravity4.jpg"},
+        "imgFive": { "url": "./Images/air-jordan-gravity5.jpg"}
       }
     },
     {
