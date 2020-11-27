@@ -48,7 +48,7 @@ class UI{
           <article class="product">
               <div class="img-container">
                   <img src="${product.image}" alt="product" class="product-img">
-                  <a href="./sizes.html ${product.id}" class="bag-btn">Choose sizes</a>
+                  <a href="./sizes.html?${product.id}" class="bag-btn">Choose sizes</a>
               </div>
 
                   <h3>${product.title}</h3>
