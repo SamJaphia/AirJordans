@@ -20,9 +20,10 @@ fetch('airjordan.json')
 .then(data => {
     currentTrainer = data.items.find(trainer => trainer.sys.id === (new URL(window.location.href)).searchParams.get('id'));
     console.log(currentTrainer.fields.title)
+    document.querySelector('#trainer-name').innerText = currentTrainer.fields.title;
 });
 
-document.querySelector('#trainer-name').innerText = currentTrainer.fields.title;
+
 // get the kicks
 class Products {
   async getProducts () {
