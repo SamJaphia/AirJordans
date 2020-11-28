@@ -13,10 +13,16 @@ const productsDOM = document.querySelector('.products-center')
 //cart
 let cart =[];
 
+let currentTrainer
+
 fetch('airjordan.json')
 .then(response => response.json())
-.then(data => console.log(data))
+.then(data => {
+    currentTrainer = data.items.find(trainer => trainer.sys.id === (new URL(window.location.href)).searchParams.get('id'));
+    console.log(currentTrainer.fields.title)
+});
 
+document.querySelector('#trainer-name').innerText = currentTrainer.fields.title;
 // get the kicks
 class Products {
   async getProducts () {
@@ -48,7 +54,7 @@ class UI{
           <article class="product">
               <div class="img-container">
                   <img src="${product.image}" alt="product" class="product-img">
-                  <a href="./sizes.html?${product.id}" class="bag-btn">Choose sizes</a>
+                  <a href="./sizes?id=${product.id}" class="bag-btn">Choose sizes</a>
               </div>
 
                   <h3>${product.title}</h3>
@@ -68,6 +74,10 @@ class Storage {
 const ui = new UI();
 const products = new Products()
 products.getProducts().then(prod => ui.displayProducts(prod))
+
+let currentURL = new URL(window.location.href)
+
+currentURL.searchParams.get('id')
 
 
 
