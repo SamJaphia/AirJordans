@@ -21,6 +21,12 @@ fetch('airjordan.json')
     currentTrainer = data.items.find(trainer => trainer.sys.id === (new URL(window.location.href)).searchParams.get('id'));
     console.log(currentTrainer.fields.title)
     document.querySelector('#trainer-name').innerText = currentTrainer.fields.title;
+    document.querySelector('#trainer-price').innerText = currentTrainer.fields.price;
+    document.querySelector('#main-pic').src = currentTrainer.fields.image.fields.file.url;
+    document.querySelector('#second-pic').src = currentTrainer.fields.imgTwo.url;
+    document.querySelector('#third-pic').src = currentTrainer.fields.imgOne.url;
+    document.querySelector('#fourth-pic').src = currentTrainer.fields.imgThree.url;
+    document.querySelector('#fifth-pic').src = currentTrainer.fields.imgFour.url;
 });
 
 

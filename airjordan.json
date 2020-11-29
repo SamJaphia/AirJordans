@@ -17,7 +17,7 @@
       "sys": { "id": "2" },
       "fields": {
         "title": "Air Jordan Gravity",
-        "price": 12.99,
+        "price": "$102.99",
         "image": { "fields": { "file": { "url": "./Images/air-jordan-gravity.jpg" } } },
         "imgOne": { "url": "./Images/air-jordan-gravity1.jpg"},
         "imgTwo": { "url": "./Images/air-jordan-gravity2.jpg"},
@@ -30,9 +30,9 @@
       "sys": { "id": "3" },
       "fields": {
         "title": "Air Jordan Delta",
-        "price": 12.99,
+        "price": "$102.99",
         "image": { "fields": { "file": { "url": "./Images/jordan-delta1.jpg" } } },
-        "imgOne": { "url": "./Images/air-jordan-detla2.jpg"},
+        "imgOne": { "url": "./Images/jordan-detla2.jpg"},
         "imgTwo": { "url": "./Images/air-jordan-delta3.jpg"},
         "imgThree": { "url": "./Images/air-jordan-delta4.jpg"},
         "imgFour": { "url": "./Images/air-jordan-delta5.jpg"},
@@ -43,7 +43,7 @@
       "sys": { "id": "4" },
       "fields": {
         "title": "Air Jordan Air zoom",
-        "price": 22.99,
+        "price": "$22.99",
         "image": { "fields": { "file": { "url": "./Images/jordan air zoom.jpg" } } }
       }
     },
@@ -51,7 +51,7 @@
       "sys": { "id": "5" },
       "fields": {
         "title": "Air Jordan Gravity",
-        "price": 88.99,
+        "price": "$88.99",
         "image": { "fields": { "file": { "url": "./Images/air-jordan gravity.jpg" } } }
       }
     },
@@ -59,7 +59,7 @@
       "sys": { "id": "6" },
       "fields": {
         "title": "Air Jordan Aura",
-        "price": 32.99,
+        "price": "$32.99",
         "image": { "fields": { "file": { "url": "./Images/jordan-aura2.jpg" } } }
       }
     },
@@ -67,7 +67,7 @@
       "sys": { "id": "7" },
       "fields": {
         "title": "Air Jordan Delta",
-        "price": 45.99,
+        "price": "$45.99",
         "image": { "fields": { "file": { "url": "./Images/jordan-delta.jpg" } } }
       }
     },
@@ -75,7 +75,7 @@
       "sys": { "id": "8" },
       "fields": {
         "title": "Air Jordan Crater",
-        "price": 33.99,
+        "price": "$33.99",
         "image": { "fields": { "file": { "url": "./Images/jordan-crater.jpg" } } }
       }
     }
