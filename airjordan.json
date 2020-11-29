@@ -32,51 +32,76 @@
         "title": "Air Jordan Delta",
         "price": "$102.99",
         "image": { "fields": { "file": { "url": "./Images/jordan-delta1.jpg" } } },
-        "imgOne": { "url": "./Images/jordan-detla2.jpg"},
-        "imgTwo": { "url": "./Images/air-jordan-delta3.jpg"},
-        "imgThree": { "url": "./Images/air-jordan-delta4.jpg"},
-        "imgFour": { "url": "./Images/air-jordan-delta5.jpg"},
-        "imgFive": { "url": "./Images/air-jordan-delta1.jpg"}
+        "imgOne": { "url": "./Images/jordan-detla1.jpg"},
+        "imgTwo": { "url": "./Images/air-jordan-delta2.jpg"},
+        "imgThree": { "url": "./Images/air-jordan-delta3.jpg"},
+        "imgFour": { "url": "./Images/air-jordan-delta4.jpg"},
+        "imgFive": { "url": "./Images/air-jordan-delta5.jpg"}
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "Air Jordan Air zoom",
+        "title": "Air Jordan XXXV Bayou Boys",
         "price": "$22.99",
-        "image": { "fields": { "file": { "url": "./Images/jordan air zoom.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Images/air-jordan-bayou.jpg" } } },
+        "imgOne": { "url": "./Images/air-jordan-bayou1.jpg"},
+        "imgTwo": { "url": "./Images/air-jordan-bayou2.jpg"},
+        "imgThree": { "url": "./Images/air-jordan-bayou3.jpg"},
+        "imgFour": { "url": "./Images/air-jordan-bayou4.jpg"},
+        "imgFive": { "url": "./Images/air-jordan-bayou5.jpg"}
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "Air Jordan Gravity",
+        "title": "Jordan Zoom '92",
         "price": "$88.99",
-        "image": { "fields": { "file": { "url": "./Images/air-jordan gravity.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Images/jordan-zoom-92.jpg" } } },
+        "imgOne": { "url": "./Images/jordan-zoom-921.jpg"},
+        "imgTwo": { "url": "./Images/jordan-zoom-922.jpg"},
+        "imgThree": { "url": "./Images/jordan-zoom-923.jpg"},
+        "imgFour": { "url": "./Images/jordan-zoom-924.jpg"},
+        "imgFive": { "url": "./Images/jordan-zoom-925.jpg"}
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "Air Jordan Aura",
+        "title": "Jodan React Elevation",
         "price": "$32.99",
-        "image": { "fields": { "file": { "url": "./Images/jordan-aura2.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Images/jordan-react-elevation.jpg" } } },
+        "imgOne": { "url": "./Images/jordan-react-elevation1.jpg"},
+        "imgTwo": { "url": "./Images/jordan-react-elevation2.jpg"},
+        "imgThree": { "url": "./Images/jordan-react-elevation3.jpg"},
+        "imgFour": { "url": "./Images/jordan-react-elevation4.jpg"},
+        "imgFive": { "url": "./Images/jordan-react-elevation5.jpg"}
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "Air Jordan Delta",
+        "title": "Jordan Zoom Trunner Advance",
         "price": "$45.99",
-        "image": { "fields": { "file": { "url": "./Images/jordan-delta.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Images/jordan-zoom-trunner11.jpg" } } },
+        "imgOne": { "url": "./Images/jordan-zoom-trunner1.jpg"},
+        "imgTwo": { "url": "./Images/jordan-zoom-trunner2.jpg"},
+        "imgThree": { "url": "./Images/jordan-zoom-trunner3.jpg"},
+        "imgFour": { "url": "./Images/jordan-zoom-trunner4.jpg"},
+        "imgFive": { "url": "./Images/jordan-zoom-trunner-advance5.jpg"}
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "Air Jordan Crater",
+        "title": "Air Jordan 4 Retro SE",
         "price": "$33.99",
-        "image": { "fields": { "file": { "url": "./Images/jordan-crater.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Images/air-jordan-4.jpg" } } },
+        "imgOne": { "url": "./Images/air-jordan-41.jpg"},
+        "imgTwo": { "url": "./Images/air-jordan-42.jpg"},
+        "imgThree": { "url": "./Images/air-jordan-43.jpg"},
+        "imgFour": { "url": "./Images/air-jordan-44.jpg"},
+        "imgFive": { "url": "./Images/air-jordan-45.jpg"}
       }
     }
   ]

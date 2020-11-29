@@ -23,10 +23,11 @@ fetch('airjordan.json')
     document.querySelector('#trainer-name').innerText = currentTrainer.fields.title;
     document.querySelector('#trainer-price').innerText = currentTrainer.fields.price;
     document.querySelector('#main-pic').src = currentTrainer.fields.image.fields.file.url;
+    document.querySelector('#first-pic').src = currentTrainer.fields.imgOne.url;
     document.querySelector('#second-pic').src = currentTrainer.fields.imgTwo.url;
-    document.querySelector('#third-pic').src = currentTrainer.fields.imgOne.url;
-    document.querySelector('#fourth-pic').src = currentTrainer.fields.imgThree.url;
-    document.querySelector('#fifth-pic').src = currentTrainer.fields.imgFour.url;
+    document.querySelector('#third-pic').src = currentTrainer.fields.imgThree.url;
+    document.querySelector('#fourth-pic').src = currentTrainer.fields.imgFour.url;
+    document.querySelector('#fifth-pic').src = currentTrainer.fields.imgFive.url;
 });
 
 
