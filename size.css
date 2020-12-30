@@ -174,3 +174,9 @@ body {
 h2 {
   padding-right: 5%;
 }
+
+#cartbutton {
+  background-color: #ececec;
+  color: black;
+  
+}

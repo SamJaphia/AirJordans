@@ -32,11 +32,11 @@
         "title": "Air Jordan Delta",
         "price": "$102.99",
         "image": { "fields": { "file": { "url": "./Images/jordan-delta1.jpg" } } },
-        "imgOne": { "url": "./Images/jordan-detla1.jpg"},
-        "imgTwo": { "url": "./Images/air-jordan-delta2.jpg"},
-        "imgThree": { "url": "./Images/air-jordan-delta3.jpg"},
-        "imgFour": { "url": "./Images/air-jordan-delta4.jpg"},
-        "imgFive": { "url": "./Images/air-jordan-delta5.jpg"}
+        "imgOne": { "url": "./Images/jordan-delta12.jpg"},
+        "imgTwo": { "url": "./Images/jordan-delta2.jpg"},
+        "imgThree": { "url": "./Images/jordan-delta3.jpg"},
+        "imgFour": { "url": "./Images/jordan-delta4.jpg"},
+        "imgFive": { "url": "./Images/jordan-delta5.jpg"}
       }
     },
     {
