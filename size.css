@@ -178,5 +178,8 @@ h2 {
 #cartbutton {
   background-color: #ececec;
   color: black;
-  
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  ;
 }
