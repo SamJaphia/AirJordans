@@ -30,6 +30,10 @@ fetch('airjordan.json')
     document.querySelector('#fifth-pic').src = currentTrainer.fields.imgFive.url;
 });
 
+addCart() {
+    var elem = document.getElementById("cartbutton");
+    elem.innerText= "Added to cart!"
+}
 
 // get the kicks
 class Products {
