@@ -1,5 +1,7 @@
 //variables
 
+
+
 const cartBtn = document.querySelector('.cart-btn');
 const closeCartBtn = document.querySelector('.close-cart');
 const clearCartBtn = document.querySelector('.clear-cart');
@@ -12,6 +14,11 @@ const productsDOM = document.querySelector('.products-center')
 
 //cart
 let cart =[];
+
+function addCart() {
+    var elem = document.getElementById("cartbutton");
+    elem.innerText= "Added to cart!"
+}
 
 let currentTrainer
 
@@ -28,12 +35,8 @@ fetch('airjordan.json')
     document.querySelector('#third-pic').src = currentTrainer.fields.imgThree.url;
     document.querySelector('#fourth-pic').src = currentTrainer.fields.imgFour.url;
     document.querySelector('#fifth-pic').src = currentTrainer.fields.imgFive.url;
-});
 
-addCart() {
-    var elem = document.getElementById("cartbutton");
-    elem.innerText= "Added to cart!"
-}
+});
 
 // get the kicks
 class Products {
