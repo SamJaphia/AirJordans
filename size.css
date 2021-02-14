@@ -9,6 +9,18 @@
   z-index: 1;
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
 .navbar-center {
   width: 100%;
   max-width: 1170px;
@@ -127,6 +139,7 @@ body {
   flex-direction: row;
   top: 5rem;
   left: 10rem;
+  margin-top: 10%;
 }
 
 .product * {
@@ -180,6 +193,8 @@ h2 {
   color: black;
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
+  margin-left: 2rem;
+  padding: 15px 15px;
+  font-size: 14px;
   ;
 }
