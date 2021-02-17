@@ -27,16 +27,40 @@ fetch('airjordan.json')
 .then(data => {
     currentTrainer = data.items.find(trainer => trainer.sys.id === (new URL(window.location.href)).searchParams.get('id'));
     console.log(currentTrainer.fields.title)
+
     document.querySelector('#trainer-name').innerText = currentTrainer.fields.title;
     document.querySelector('#trainer-price').innerText = currentTrainer.fields.price;
     document.querySelector('#main-pic').src = currentTrainer.fields.image.fields.file.url;
+
     document.querySelector('#first-pic').src = currentTrainer.fields.imgOne.url;
+    document.querySelector('#first-pic').addEventListener('click', function(){
+        replaceMainImage(currentTrainer.fields.imgOne.url)
+    });
+
     document.querySelector('#second-pic').src = currentTrainer.fields.imgTwo.url;
+    document.querySelector('#second-pic').addEventListener('click', function(){
+        replaceMainImage(currentTrainer.fields.imgTwo.url)
+    });
+    
     document.querySelector('#third-pic').src = currentTrainer.fields.imgThree.url;
+    document.querySelector('#third-pic').addEventListener('click', function(){
+        replaceMainImage(currentTrainer.fields.imgThree.url)
+    });
+
     document.querySelector('#fourth-pic').src = currentTrainer.fields.imgFour.url;
+    document.querySelector('#fourth-pic').addEventListener('click', function(){
+        replaceMainImage(currentTrainer.fields.imgFour.url)
+    });
+
     document.querySelector('#fifth-pic').src = currentTrainer.fields.imgFive.url;
+    document.querySelector('#fifth-pic').addEventListener('click', function(){
+        replaceMainImage(currentTrainer.fields.imgFive.url)
 
 });
+
+function replaceMainImage(path) {
+    document.querySelector('#main-pic').src = path; 
+})
 
 // get the kicks
 class Products {
