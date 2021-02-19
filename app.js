@@ -55,11 +55,10 @@ fetch('airjordan.json')
     document.querySelector('#fifth-pic').src = currentTrainer.fields.imgFive.url;
     document.querySelector('#fifth-pic').addEventListener('click', function(){
         replaceMainImage(currentTrainer.fields.imgFive.url)
+    })
 
 });
 
-function replaceMainImage(path) {
-    document.querySelector('#main-pic').src = path; }
 
 // get the kicks
 class Products {
@@ -117,5 +116,7 @@ let currentURL = new URL(window.location.href)
 
 currentURL.searchParams.get('id')
 
+function replaceMainImage(path) {
+    document.querySelector('#main-pic').src = path; }
 
 
