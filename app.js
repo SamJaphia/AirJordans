@@ -58,7 +58,8 @@ fetch('airjordan.json')
 
 });
 
-
+function replaceMainImage(path) {
+    document.querySelector('#main-pic').src = path; }
 
 // get the kicks
 class Products {
