@@ -35,7 +35,7 @@ fetch('airjordan.json')
     document.querySelector('#first-pic').src = currentTrainer.fields.imgOne.url;
     document.querySelector('#first-pic').addEventListener('click', function(){
         replaceMainImage(currentTrainer.fields.imgOne.url)
-    });
+    })
 
     document.querySelector('#second-pic').src = currentTrainer.fields.imgTwo.url;
     document.querySelector('#second-pic').addEventListener('click', function(){
