@@ -45,6 +45,8 @@ body {
   position: relative;
   cursor: pointer;
 }
+
+
 .cart-items {
   position: absolute;
   top: -8px;
