@@ -9,6 +9,16 @@
   z-index: 1;
 }
 
+.dropbtn {
+  background-color: #ececec;
+  color: black;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn: hover, 
+
 .dropdown {
   float: left;
   overflow: hidden;
