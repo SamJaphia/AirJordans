@@ -17,11 +17,21 @@
   cursor: pointer;
 }
 
-.dropbtn: hover, 
+.dropbtn:hover, .dropbtn:focus{
+  background-color: #2980b9
+}
 
 .dropdown {
-  float: left;
-  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1ff;
+  min-width: 160px;
+  overflow: auto;
 }
 
 .dropdown .dropbtn {
