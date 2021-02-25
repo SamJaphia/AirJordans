@@ -9,37 +9,7 @@
   z-index: 1;
 }
 
-.dropbtn {
-  background-color: #ececec;
-  color: black;
-  padding: 16px;
-  border: none;
-  cursor: pointer;
-}
 
-.dropbtn:hover, .dropbtn:focus{
-  background-color: #2980b9
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #f1f1ff;
-  min-width: 160px;
-  overflow: auto;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;
-  border: none;
-  outline: none;
-}
 
 .navbar-center {
   width: 100%;
