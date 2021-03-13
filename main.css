@@ -56,6 +56,10 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
+
+.dropdown-content {
+  position:fixed;
+}
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
