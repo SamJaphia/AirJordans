@@ -57,8 +57,11 @@ body {
   color: var(--mainWhite);
 }
 
-.dropdown-content {
-  position:fixed;
+.dropdown .dropdown-content{
+  position: relative;
+  width: 52px;
+  margin-bottom: 1em;
+  background-color: #f09d51;
 }
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
