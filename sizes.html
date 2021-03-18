@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Air Jordan Sizes</title>
     <script src="https://kit.fontawesome.com/5610377ba1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="size.css">
-    
+
 </head>
+
 <body>
     <nav class="navbar">
         <div class="navbar-center">
@@ -22,36 +24,53 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-    <div id="Name">Jordan</div>
-    <div class="first">
-        <img src="./Images/jordan-delta1.jpg" class="airDelta">
-        <h2>Choose Sizes</h2>
-        <div id="size-box">
-            <button type="button">UK 1</button>
-            <button type="button">UK 2</button>
-            <button type="button">UK 3</button>
-            <button type="button">UK 4</button>
-            <button type="button">UK 5</button>
-            <button type="button">UK 6</button>
-            <button type="button">UK 7</button>
-            <button type="button">UK 8</button>
-            <button type="button">UK 9</button>
-            <button type="button">UK 9</button>
-            <button type="button">UK 9</button>
-            <button type="button">UK 9</button>
+
+    <div class="product">
+
+        <div>
+            <img id="main-pic" src="./Images/jordan-delta1.jpg" class="airImage">
+            <div id="wrapper">
+                <h2>Choose Sizes</h2>
+                <div id="size-box">
+                    <button onclick="addCart()">UK 1</button>
+                    <button onclick="addCart()">UK 2</button>
+                    <button onclick="addCart()">UK 3</button>
+                    <button onclick="addCart()">UK 4</button>
+                    <button onclick="addCart()">UK 5</button>
+                    <button onclick="addCart()">UK 6</button>
+                    <button onclick="addCart()">UK 7</button>
+                    <button onclick="addCart()">UK 8</button>
+                    <button onclick="addCart()">UK 9</button>
+                    <button onclick="addCart()">UK 9</button>
+                    <button onclick="addCart()">UK 9</button>
+                    <button onclick="addCart()">UK 9</button>
+                  
+                </div>
+            </div>
         </div>
+        <div class="totalRank">
+        <div class="gallery">
+            <img id="first-pic" src="./Images/jordan-delta2.jpg" class="airDelta2">
+            <img id="second-pic" src="./Images/jordan-delta3.jpg" class="airDelta3">
+            <img id="third-pic" src="./Images/jordan-delta4.jpg" class="airDelta4">
+            <img id="fourth-pic" src="./Images/jordan-delta5.jpg" class="airDelta5">
+            <img id="fifth-pic" src="./Images/jordan-delta1.jpg" class="airDelta6">
         </div>
-    
-    <div id="second"><img src="./Images/jordan-delta2.jpg" class="airDelta2"></div>
-    <div id="third"><img src="./Images/jordan-delta3.jpg" class="airDelta3"></div>
-    <div id="fourth">fourth</div>
-    <div id="fifth">fifth</div> 
-    <div id="cart">Cart</div>
-    <div id="price">Price</div>
-    <div id="fun">fun</div>
+            <button id ="cartbutton" onclick="addCart">Add to Cart </button>
     </div>
+
+    </div>
+        
+        <h2 id="trainer-name" class="product-name">Loading</h2>
+        <br>
+        <h2 id="trainer-price" class="product-price">Loading</h2>
+        <br>
+        <br>
+        <button class="cart-button" type="button"> </button>
+    </div>
+    <script src="app.js"></script>
     
-    <script src=""></script>
+    
 </body>
+
 </html>
