@@ -97,6 +97,8 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-bottom: 10%;
+    overflow-x: auto;
+    max-height: 60vh;
     
   }
   
@@ -113,7 +115,8 @@ body {
   
   .dropimage {
     height: 5rem;
-    margin-left: 5%;
+    margin-left: 10%;
+    justify-content: right;
   }
   .dropdown:hover .dropdown-content, .dropdown-button:hover + .dropdown-content {
     display: block;
